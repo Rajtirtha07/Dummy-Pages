@@ -1,0 +1,94 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.big-container{
+    border: 1px solid thistle;
+    border-radius: 4px;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+img{
+    width:50%
+}
+#one{
+    margin-left: 2%;
+}
+#three{
+    margin-top:8%;
+}
+#two{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+hr{
+    color: thistle;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+hr{
+    border: 1px solid thistle;
+
+}
+ol{
+    
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+    counter-reset: li;
+    font-size: 20px;
+}
+li::before{
+    content: counter(li);
+    color: crimson;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+li{
+    counter-increment: li;
+}
+.qws{
+    font-weight: bold;
+}
+img{
+    display: block;
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+.small-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+}
+#inf1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+button{
+    background-color:#1a1aff;
+    color:white;
+    font-size: 16px;
+    margin-right: 1%;
+    padding: 10px 20px;
+    border:#1a1aff;
+    border-radius: 8px;
+}
